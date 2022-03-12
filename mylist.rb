@@ -14,7 +14,7 @@ class MyList
   end
 end
 
-list = MyList.new(2,4,6,8)
+list = MyList.new(2, 4, 6, 8)
 
 puts(list.all_items { |e| e < 5 })
 puts(list.all_items { |e| e > 5 })
